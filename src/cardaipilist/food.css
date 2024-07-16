@@ -1,0 +1,25 @@
+
+
+.allitems{
+    border:  2px solid black;
+    height: 750px;
+    width: 500px;
+    box-shadow: 5px 10px 10px black;
+}
+.allitems img{
+    height: 300px;
+    width: 490px;
+  object-fit: cover;
+  
+}
+.allitems h3{
+    color: goldenrod;
+}
+span{
+    color: rgb(233, 119, 119);
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
