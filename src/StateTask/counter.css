@@ -1,0 +1,45 @@
+
+
+
+
+
+.count{
+    border: 3px solid rgb(155, 177, 11);
+    height: 500px;
+    width: 600px;
+    color: red;
+    border-radius: 10px;
+    position: relative;
+    left: 380px;
+    top: 200px;
+    background-image: url("https://helios-i.mashable.com/imagery/articles/019xQ62lvVn52gGMMbWVNqa/hero-image.fill.size_1200x1200.v1623370179.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+object-fit: fill;
+object-position: right;
+box-shadow: 10px 5px 20px black;
+
+
+}
+.count button{
+    /* background-color: rgb(48, 56, 150); */
+    color: rgb(183, 18, 48);
+    margin: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    text-shadow: 5px 10px 5px rgb(149, 18, 123);
+}
+
+.countnum{
+    border: 2px solid rgb(63, 65, 127);
+    height: 70px;
+    width: 500px;
+    margin-left: 30px;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 10px 15px black;
+}

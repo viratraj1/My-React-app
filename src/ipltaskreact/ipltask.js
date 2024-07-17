@@ -8,7 +8,8 @@ const Ipl=[
            Timename:"RCB",
            Tropes:5,
            Players:"Faf du Plessis: (CaptainAnuj Rawat: (Wicketkeeper: Saurav Chauhan : Dinesh Karthik : (Wicketkeeper): Virat Kohli",
-          
+           incrment:<button>+</button>,
+           decrement:<button>-</button>
         },
         {
           
@@ -16,7 +17,8 @@ const Ipl=[
             Timename:"CSK",
             Tropes:5,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
-     
+            incrment:<button>+</button>,
+            decrement:<button>-</button>
          },
          {
            
@@ -25,7 +27,8 @@ const Ipl=[
             Tropes:0,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
             
-     
+            incrment:<button>+</button>,
+            decrement:<button>-</button>
          },
          {
             
@@ -33,7 +36,8 @@ const Ipl=[
             Timename:"RR",
             Tropes:2,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
-     
+            incrment:<button>+</button>,
+            decrement:<button>-</button>
          },
          {
             
@@ -41,7 +45,8 @@ const Ipl=[
             Timename:"GT",
             Tropes:1,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
-     
+            incrment:<button>+</button>,
+            decrement:<button>-</button>
          },
          {
             
@@ -49,7 +54,8 @@ const Ipl=[
             Timename:"SRH",
             Tropes:2,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
-     
+            incrment:<button>+</button>,
+           decrement:<button>-</button>
          },
          {
             
@@ -57,7 +63,8 @@ const Ipl=[
             Timename:"KKR",
             Tropes:2,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
-     
+            incrment:<button>+</button>,
+            decrement:<button>-</button>
          },
          {
             
@@ -65,7 +72,8 @@ const Ipl=[
             Timename:"PNJAB KINGS",
             Tropes:0,
             Players:"Sanju Samson  Jos Buttler  Shimron HetmyerYashasvi Jaiswal Dhruv Jurel (Wicketkeeper)Riyan ParagKunal Rathore (Wicketkeeper)Donovan Ferreira (Wicketkeeper)Rovman Powell",
-     
+           incrment:<button>+</button>,
+           decrement:<button>-</button>
          },
        
     ]

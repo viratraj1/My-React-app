@@ -17,7 +17,7 @@ import CustomList from "./cardaipilist/eachitem";
 import fakecard from "./cardaipilist/fakeapi";
 import UnorderList from "./cardaipilist/eachitem";
 
-
+import Counter from "./StateTask/CounterApp";
 
 
 import List from "./cardaipilist/eachitem";
@@ -27,7 +27,8 @@ const percentage = (input) => {
 };
 
 
-// import "..cssipltask.css"
+
+
 
 function App() {
   return (
@@ -36,9 +37,23 @@ function App() {
 
 <div>
 
-  <List/>
+  {/* <List/> */}
+
+
 
  
+
+
+
+<Counter/>
+ 
+
+
+
+
+
+
+
 </div>
 
 
