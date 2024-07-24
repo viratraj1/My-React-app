@@ -4,7 +4,7 @@
 
 
 .count{
-    border: 3px solid rgb(155, 177, 11);
+    border: 3px solid rgb(157, 34, 128);
     height: 500px;
     width: 600px;
     color: red;
@@ -41,5 +41,5 @@ box-shadow: 10px 5px 20px black;
     top: 100px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 5px 10px 15px black;
+    box-shadow: 5px 10px 15px rgb(23, 22, 23);
 }

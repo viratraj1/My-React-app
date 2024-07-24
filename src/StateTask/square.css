@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+.squaretask-highlight{
+    height: 200px;
+    width: 200px;
+    /* background-color: brown; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9mFLc0VmQkisT7W5MjspHx_Lkta9jKrE8jw&s");
+  background-repeat: no-repeat;
+  object-fit: cover;
+    margin: 10px;
+}
+
+.squaretask-not-highlight{
+    height: 200px;
+    width: 200px;
+    /* background-color: blue; */
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI776TnL9i74GNMC72EDxGLhBakOpGoZGOIQ&s");
+   background-repeat: no-repeat;
+   object-fit: cover;
+    margin: 10px;
+}
+
+
+
+
+

@@ -16,11 +16,16 @@ import CustomList from "./cardaipilist/eachitem";
 
 import fakecard from "./cardaipilist/fakeapi";
 import UnorderList from "./cardaipilist/eachitem";
-
 import Counter from "./StateTask/CounterApp";
-
-
 import List from "./cardaipilist/eachitem";
+import RecipeList from "./Loderapi/recipes-list";
+
+
+import SquareComponent from "./StateTask/square-rask";
+import CompanyTask from "./CompanyTask/apicall";
+import BasicExample from "./prodect_add_delete/Tableadd";
+import UseStateEx1 from "./prodect_add_delete/Tableadd";
+
 
 const percentage = (input) => {
   return (input / 18) * 100;
@@ -39,16 +44,14 @@ function App() {
 
   {/* <List/> */}
 
-
-
+{/* <Counter/> */}
  
+{/* <SquareComponent/> */}
 
-
-
-<Counter/>
- 
-
-
+{/* <RecipeList/> */}
+<CompanyTask/>
+{/* <BasicExample/> */}
+{/* <UseStateEx1/> */}
 
 
 
@@ -58,7 +61,9 @@ function App() {
 
 
      
-
+/* <Image link="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"/>
+           <Image link="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"/>
+           <Image/> */
     
 
 
@@ -67,9 +72,7 @@ function App() {
 
 
 
-    /* <Image link="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"/>
-           <Image link="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"/>
-           <Image/> */
+  
   );
 }
 
