@@ -49,9 +49,9 @@ function App() {
 {/* <SquareComponent/> */}
 
 {/* <RecipeList/> */}
-<CompanyTask/>
+{/* <CompanyTask/> */}
 {/* <BasicExample/> */}
-{/* <UseStateEx1/> */}
+<UseStateEx1/>
 
 
 
