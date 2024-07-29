@@ -1,0 +1,39 @@
+
+
+.form-task{
+    height: 500px;
+    width: 600px;
+    border:  2px solid rgb(12, 169, 82);
+    box-shadow: -5px 10px 15px rgb(103, 154, 108);
+    background-image: url("https://i.pinimg.com/474x/31/9f/b0/319fb0a849593d6261e5174d09fc8949.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+   position: relative;
+   left: 560px;
+   top: 100px;
+}
+.form-task input{
+    height: 50px;
+    opacity: 0.5;
+    
+}
+.form-task label{
+    font-size: 20px;
+    color: rgb(161, 83, 64);
+}
+.rg{
+    text-align: center;
+    position: relative;
+    color: rgb(94, 157, 94);
+    text-shadow: -5px 0px 15px rgb(201, 126, 83);
+    top: 80px;
+    font-size: 70px;
+}
+
+.btn btn-default{
+    height: 50px;
+    width: 60px;
+    background-color: rgb(63, 146, 79);
+}

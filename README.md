@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,59 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+useEffect:its a hook react function components which cause the side effects like data fetching ,dom manipulations event listeners, time events,subscribts
+
+useEffect life cycle methods
+
+1) component did mount
+2) component did update
+3) component will un mount
+
+useEffect syntax :it will accept 2 
+
+1) callback function
+2) array(dependency array)
+
+useEffect(()=>{},[])
+
+case 1) when dependncy array langth is zero
+
+useEffect will behave component did mount method 
+
+case 2) useEffect will behave like a component did update whenvar dependency variabas changes
+
+case 3) no dependency array
+useEffect(()=>{})
+
+case 4) callback function returns the returns the another function 
+
+useEffect (()=>{
+    return()=>{
+        component well
+    }
+})
+
+
+
+useEffect (()=>{
+    console.log("hello useEffect")
+})
+useEffect (()=>{
+    console.log("hello useEffect")
+}[])
+
+useEffect (()=>{
+    console.log("hello useEffect")
+    products()
+},[serchinput])
+
+
+
+
+
+
+
+

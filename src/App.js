@@ -11,20 +11,26 @@ import Tablecart from "./tablecart/tablecart";
 import Progressbar from "./ipltaskreact/iplprogress";
 import Image from "./ImageCom";
 import Cardname from "./cardaipilist/cardname";
-
 import CustomList from "./cardaipilist/eachitem";
-
 import fakecard from "./cardaipilist/fakeapi";
 import UnorderList from "./cardaipilist/eachitem";
 import Counter from "./StateTask/CounterApp";
 import List from "./cardaipilist/eachitem";
 import RecipeList from "./Loderapi/recipes-list";
-
-
 import SquareComponent from "./StateTask/square-rask";
 import CompanyTask from "./CompanyTask/apicall";
 import BasicExample from "./prodect_add_delete/Tableadd";
 import UseStateEx1 from "./prodect_add_delete/Tableadd";
+import Forms_login from "./Forms/Formstask";
+import RegistrationForm from "./Forms/Formstask";
+import ShowGreeting from "./useEffect_task/useeffect_task1";
+import Componentdidupdate from "./useEffect_task/component_did_up";
+import Useeffect_ex4 from "./useEffect_task/useEffct_case4";
+import TextEffect from "./useEffect_task/useeffect_task1";
+import MyComponent from "./useEffect_task/funex";
+import Homescreen from "./Navigations_task/Wap_page";
+import NavigationStack from "./Navigations_task/Navaigation_all_list/allprodect";
+
 
 
 const percentage = (input) => {
@@ -42,6 +48,26 @@ function App() {
 
 <div>
 
+
+ <NavigationStack/>
+
+
+
+
+
+
+
+
+
+{/* <Homescreen /> */}
+  {/* <Componentdidupdate/> */}
+  {/* <Useeffect_ex4/> */}
+{/* <MyComponent/> */}
+{/* <TextEffect/> */}
+
+{/* <RegistrationForm/> */}
+{/* <Forms_login/> */}
+
   {/* <List/> */}
 
 {/* <Counter/> */}
@@ -51,7 +77,7 @@ function App() {
 {/* <RecipeList/> */}
 {/* <CompanyTask/> */}
 {/* <BasicExample/> */}
-<UseStateEx1/>
+{/* <UseStateEx1/> */}
 
 
 
