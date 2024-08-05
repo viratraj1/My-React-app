@@ -30,6 +30,10 @@ import TextEffect from "./useEffect_task/useeffect_task1";
 import MyComponent from "./useEffect_task/funex";
 import Homescreen from "./Navigations_task/Wap_page";
 import NavigationStack from "./Navigations_task/Navaigation_all_list/allprodect";
+import RecipeDropdown from "./Navigations_task/Dropdown";
+import Fakeapis from "./Loderapi/reacttable";
+import Bookmyso from "./useReduser-task/Book-myso";
+
 
 
 
@@ -50,15 +54,13 @@ function App() {
 
 
  <NavigationStack/>
+ {/* <RecipeDropdown/> */}
 
 
 
-
-
-
-
-
-
+ {/* <Bookmyso/> */}
+ 
+{/* <Fakeapis/> */}
 {/* <Homescreen /> */}
   {/* <Componentdidupdate/> */}
   {/* <Useeffect_ex4/> */}

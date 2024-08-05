@@ -1,5 +1,7 @@
+
 import Forms_login from "../Forms/Formstask";
 import Navbar from "./navabar";
+
 
 
 const Registration_screen=()=>{
@@ -10,6 +12,8 @@ const Registration_screen=()=>{
            
 
               <Forms_login/>
+             
+              
         </div>
     )
 }

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./prodect.css";
+import RecipeDropdown from "./Dropdown";
+
 
 
 
@@ -32,6 +34,9 @@ const Navbar=()=>{
       <Link to={"/registation"} className="nav"> Registation</Link>
 
       </li>
+      
+
+      <RecipeDropdown/>
     </ul>
   </div>
 </nav>

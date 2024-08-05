@@ -1,0 +1,58 @@
+
+
+
+.movieticket{
+    height: 500px;
+    width: 500px;
+    border: 2px solid rgba(206, 78, 49, 0.922);
+    text-align: center;
+    margin-left: 500px;
+
+   box-shadow: 5px -10px 20px ;
+   position: relative;
+   bottom: 890px;
+   left: 40px;
+}
+.ticket{
+    font-size: 100px;
+    color: rgb(217, 0, 255);
+    margin-left: 400px;
+   
+}
+.movieticket h4{
+    margin-top: 40px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    color: rgb(212, 19, 119);
+    margin-left: 100px;
+}
+.movieticket button{
+    background-color: rgb(35, 181, 172);
+    border-color: aqua;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.imgir{
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.solight{
+   font-size: 100px;
+   position: relative;
+   bottom: 200px;
+   left: 580px;
+   background-image: linear-gradient(to right, rgb(216, 31, 31), rgb(229, 221, 227));
+
+background-clip: text;
+display: inline;
+color: transparent;
+animation: animated 1s linear infinite;
+}
+@keyframes animated{
+    to{background-position-x: 161px;}
+    }
