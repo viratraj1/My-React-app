@@ -55,7 +55,7 @@ function App() {
   
 
 
- <NavigationStack/>
+ {/* <NavigationStack/> */}
  
  {/* <RecipeDropdown/> */}
 
@@ -71,7 +71,7 @@ function App() {
 {/* <TextEffect/> */}
 
 {/* <RegistrationForm/> */}
-{/* <Forms_login/> */}
+<Forms_login/>
 
   {/* <List/> */}
 
