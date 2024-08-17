@@ -33,6 +33,9 @@ import NavigationStack from "./Navigations_task/Navaigation_all_list/allprodect"
 import RecipeDropdown from "./Navigations_task/Dropdown";
 import Fakeapis from "./Loderapi/reacttable";
 import Bookmyso from "./useReduser-task/Book-myso";
+import Searchbar from "./Navigations_task/Searchbar";
+import WeatherApp from "./weather-app/my-weather-app";
+
 
 
 
@@ -43,21 +46,21 @@ const percentage = (input) => {
 
 
 
-
-
 function App() {
   return (
 
-
-
 <div>
 
+  <WeatherApp/>
+  
 
- <NavigationStack/>
+
+ {/* <NavigationStack/> */}
+ 
  {/* <RecipeDropdown/> */}
 
 
-
+{/* <Searchbar/> */}
  {/* <Bookmyso/> */}
  
 {/* <Fakeapis/> */}

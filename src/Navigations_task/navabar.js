@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import "./prodect.css";
 import RecipeDropdown from "./Dropdown";
+import { useContext } from "react";
+import { RecipeContext } from "./Navaigation_all_list/allprodect";
 
 
 
 
 
 const Navbar=()=>{
+  const {favoriteDish}=useContext(RecipeContext)
 
     return(
         <div>
@@ -34,9 +37,14 @@ const Navbar=()=>{
       <Link to={"/registation"} className="nav"> Registation</Link>
 
       </li>
+      <li className="nav-item">
+
+<Link to={"/favouriteRecipe"} className="nav"> My favorite_Recipe {favoriteDish.length}</Link>
+
+</li>
       
 
-      <RecipeDropdown/>
+      {/* <RecipeDropdown/> */}
     </ul>
   </div>
 </nav>
