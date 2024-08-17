@@ -51,11 +51,11 @@ function App() {
 
 <div>
 
-  <WeatherApp/>
+  {/* <WeatherApp/> */}
   
 
 
- {/* <NavigationStack/> */}
+ <NavigationStack/>
  
  {/* <RecipeDropdown/> */}
 
