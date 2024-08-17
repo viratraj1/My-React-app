@@ -73,14 +73,14 @@ function App() {
 {/* <RegistrationForm/> */}
 {/* <Forms_login/> */}
 
-  <List/>
+  {/* <List/> */}
 
 {/* <Counter/> */}
  
 {/* <SquareComponent/> */}
 
 {/* <RecipeList/> */}
-{/* <CompanyTask/> */}
+<CompanyTask/>
 {/* <BasicExample/> */}
 {/* <UseStateEx1/> */}
 
