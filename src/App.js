@@ -80,8 +80,8 @@ function App() {
 {/* <SquareComponent/> */}
 
 {/* <RecipeList/> */}
-<CompanyTask/>
-{/* <BasicExample/> */}
+{/* <CompanyTask/> */}
+<BasicExample/>
 {/* <UseStateEx1/> */}
 
 
